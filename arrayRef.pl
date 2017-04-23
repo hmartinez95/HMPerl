@@ -35,4 +35,6 @@ my @produce = sort keys %{$productColors};
 my @colors = sort values %{$productColors};
 
 print "Sorted list of Products: ". join(', ', @produce). "\n";
-print "Sorted list of Colors: ". join(', ', @colors). "\n";
+# print "Sorted list of Colors: ". join(', ', @colors). "\n";
+# do not print the colors!
+#
